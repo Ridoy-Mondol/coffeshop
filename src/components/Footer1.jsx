@@ -13,27 +13,27 @@ const Footer1 = () => {
             <h4 className="footer-menu overflow-y-hidden">Menu</h4>
             <div className="margin-list">
             <li className="footer-list overflow-y-hidden">
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffe-shop/">
             Home
             </NavLink>
             </li>
             <li className="footer-list overflow-y-hidden">
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/about">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffe-shop/about">
             About Us
             </NavLink>
             </li>
             <li className="footer-list overflow-y-hidden">
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/gallery">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffe-shop/gallery">
             Gallery
             </NavLink>
             </li>
             <li className="footer-list overflow-y-hidden">
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/service">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffe-shop/service">
             Services
             </NavLink>
             </li>
             <li className="footer-list overflow-y-hidden">
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/contact">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffe-shop/contact">
             Contact Us
             </NavLink>
             </li>

@@ -1,8 +1,9 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import img from "../components/images/logo.png";
 import { useState } from "react";
 const Navbar = () => {
+  const location = useLocation();
   const [show, setShow] = useState (false);
   const [hideText,setHideText] = useState(false);
   const showNav = () => {
@@ -26,22 +27,22 @@ const Navbar = () => {
       <div
       className={show ? "navbar-nav" :`navbar-nav ms-auto mb-lg-0 me-lg-3  ${hideText ? 'hide-mobile' : ''}`}>
         <li className="nav-item">
-          <NavLink exact activeClassName="active-page" className="link" aria-current="page" to="/">Home</NavLink>
+          <NavLink  exact activeClassName="active-page" className="link" to="/coffe-shop/">Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact activeClassName="active-page" className="link" to="/about">About</NavLink>
+          <NavLink exact activeClassName="active-page" className="link" to="/coffe-shop/about">About</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact activeClassName="active-page" className="link" to="/gallery">Gallery</NavLink>
+          <NavLink exact activeClassName="active-page" className="link" to="/coffe-shop/gallery">Gallery</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact activeClassName="active-page" className="link" to="/service">Services</NavLink>
+          <NavLink exact activeClassName="active-page" className="link" to="/coffe-shop/service">Services</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact activeClassName="active-page" className="link" to="/testimonial">Testimonial</NavLink>
+          <NavLink exact activeClassName="active-page" className="link" to="/coffe-shop/testimonial">Testimonial</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact activeClassName="active-page" className="link" to="/contact">Contact Us</NavLink>
+          <NavLink exact activeClassName="active-page" className="link" to="/coffe-shop/contact">Contact Us</NavLink>
         </li>
           </div>
   </div>

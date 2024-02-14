@@ -34,12 +34,15 @@
 .nav-item {
   overflow-y : hidden;
 }
-.active{
+.activ{
   color: #F76D37; 
   font-size: 1.3rem;
   font-weight: 600;
   text-decoration: underline;
   padding: 0.8rem 0;
+}
+.inactive {
+  color: #FFFFFF;
 }
 .active:hover{
   color: #F76D37; 
@@ -463,6 +466,15 @@
 h1 {
   font-weight: 900;
   font-size: 2.5rem;
+}
+
+/* error */
+.error-div {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Mobile responsive */
