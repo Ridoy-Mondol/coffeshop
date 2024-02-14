@@ -24,7 +24,7 @@ const Navbar = () => {
          <span className={ show ? "toggle-navbar" : "hide-mobile"}
          onClick={hideNav}><i class="fa-solid fa-xmark"></i></span>
       <div
-      className={show ? "navbar-nav" :`navbar-nav ms-auto mb-lg-0 me-3  ${hideText ? 'hide-mobile' : ''}`}>
+      className={show ? "navbar-nav" :`navbar-nav ms-auto mb-lg-0 me-lg-3  ${hideText ? 'hide-mobile' : ''}`}>
         <li className="nav-item">
           <NavLink exact activeClassName="active-page" className="link" aria-current="page" to="/">Home</NavLink>
         </li>
@@ -36,6 +36,9 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <NavLink exact activeClassName="active-page" className="link" to="/service">Services</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink exact activeClassName="active-page" className="link" to="/testimonial">Testimonial</NavLink>
         </li>
         <li className="nav-item">
           <NavLink exact activeClassName="active-page" className="link" to="/contact">Contact Us</NavLink>

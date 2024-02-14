@@ -378,7 +378,7 @@
 
 .testimonial-div {
   background-color: #FFFFFF;
-  padding: 5.5rem 0 0.5rem 0;
+  padding: 5.5rem 0 3.5rem 0;
   height: 30.625rem;
   height: auto;
 }
@@ -482,6 +482,12 @@ h1 {
   nav {
     overflow: hidden;
   }
+  .nav-logo {
+    overflow-y: hidden;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+  }
   .logo {
     width: 11.2625rem;
     height: 1.30rem;
@@ -494,7 +500,7 @@ h1 {
   }
   .expand-div {
     background-color: #252525;
-    height: 20.3875rem; 
+    height: 23.3875rem; 
     transition: height 0.4s ease-in-out;
   }
   .toggle-navbar {
@@ -516,10 +522,12 @@ h1 {
   .navbar-nav {
     width: 100%;
     height: auto;
+    height: 18.3125;
     display: flex;
     justify-content: center;
+    justify-content: end;
     align-items: center;
-    margin-top: 0.9rem;
+    margin-top: 0.5rem;
   }
   .link {
     font-size: 1.125rem;
@@ -673,7 +681,7 @@ h1 {
   /* testimonial */
 
 .testimonial-div {
-  padding: 3.5rem 0 0.5rem 0;
+  padding: 3.5rem 0 2.5rem 0;
   height: auto;
 }
 .testimoni-heading {
@@ -699,6 +707,7 @@ h1 {
   width: 91vw;
   padding-right: 2rem;
   height: 13.25rem;
+  height: auto;
   overflow-wrap: break-word;
 }
 .user-review {
@@ -728,12 +737,12 @@ h1 {
   justify-content: center;
 }
 .testimoni-button-1 {
-  margin-top: 20rem;
+  margin-top: 21rem;
   margin-left: 0rem;
   padding-bottom: 1rem;
 }
 .testimoni-button-2 {
-  margin-top: 20rem;
+  margin-top: 21rem;
   padding-bottom: 1rem;
 }
 
@@ -980,7 +989,7 @@ h1 {
 /* testimonial */
 
 .testimonial-div {
-  padding: 5.5rem 0 0.2rem 0;
+  padding: 5.5rem 0 2rem 0;
   height: 32.625rem;
   overflow-x: visible;
 }
@@ -1234,7 +1243,6 @@ h1 {
 /* testimonial */
 
 .testimonial-div {
-  padding: 5.5rem 0 0.2rem 0;
   height: 32.625rem;
 }
 .testimoni-heading {

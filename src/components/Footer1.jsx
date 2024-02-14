@@ -48,7 +48,7 @@ const Footer1 = () => {
             Facebook : Ridoy Mondol
             </span>
             </Link>
-            <Link to="https://www.linkedin.com/feed/" className="d-flex text-decoration-none">
+            <Link to="https://www.linkedin.com/in/md-ridoy-mondol-885555297/" className="d-flex text-decoration-none">
             <i class="fa-brands fa-linkedin footer-icon"></i>
             <span className="social-media">
             LinkedIn : Md.Ridoy Mondol
