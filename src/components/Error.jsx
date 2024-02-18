@@ -7,7 +7,7 @@ const Error = () => {
       <p className="black-para">404</p>
       <h1 className="text-center white-para overflow-y-hidden ">Page Not Found</h1>
       <button className="home-btn abt-btn">
-        <Link to='/coffe-shop/' className='text-decoration-none text-white'>
+        <Link to='/coffeshop/' className='text-decoration-none text-white'>
             Home
         </Link>
       </button>

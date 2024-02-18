@@ -16,13 +16,13 @@ function App() {
    <>
     <Navbar />
     <Routes>
-      <Route exact path='/coffe-shop/' element = {<Home data = {Api}/>} />
-      <Route exact path='/coffe-shop/about' element = {<About/>} />
-      <Route exact path='/coffe-shop/gallery' element = {<Gallery/>} />
-      <Route exact path='/coffe-shop/service' element = {<Service/>} />
-      <Route exact path='/coffe-shop/testimonial' element = {<Testimonial/>} />
-      <Route exact path='/coffe-shop/contact' element = {<Contact/>} />
-      <Route exact path='*' element = {<Error/>} />
+      <Route exact path='/coffeshop/' element = {<Home data = {Api}/>} />
+      <Route exact path='/coffeshop/about' element = {<About/>} />
+      <Route exact path='/coffeshop/gallery' element = {<Gallery/>} />
+      <Route exact path='/coffeshop/service' element = {<Service/>} />
+      <Route exact path='/coffeshop/testimonial' element = {<Testimonial/>} />
+      <Route exact path='/coffeshop/contact' element = {<Contact/>} />
+      <Route exact path='/coffeshop/*' element = {<Error/>} />
     </Routes>
     <Footer1 />
     <Footer2 />

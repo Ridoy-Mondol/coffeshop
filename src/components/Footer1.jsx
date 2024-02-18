@@ -13,27 +13,27 @@ const Footer1 = () => {
             <h4 className="footer-menu overflow-y-hidden">Menu</h4>
             <div className="margin-list">
             <li className="footer-list overflow-y-hidden">
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffe-shop/">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffeshop/">
             Home
             </NavLink>
             </li>
             <li className="footer-list overflow-y-hidden">
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffe-shop/about">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffeshop/about">
             About Us
             </NavLink>
             </li>
             <li className="footer-list overflow-y-hidden">
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffe-shop/gallery">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffeshop/gallery">
             Gallery
             </NavLink>
             </li>
             <li className="footer-list overflow-y-hidden">
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffe-shop/service">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffeshop/service">
             Services
             </NavLink>
             </li>
             <li className="footer-list overflow-y-hidden">
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffe-shop/contact">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/coffeshop/contact">
             Contact Us
             </NavLink>
             </li>
@@ -65,31 +65,27 @@ const Footer1 = () => {
           <div className="margin-tab">
             <h4 className="footer-mergin overflow-y-hidden">Contact Us</h4>
             <div className="mt-lg-4">
-            <Link to="https://web.facebook.com/profile.php?id=100015131225530" className="d-flex text-decoration-none">
+            <Link to="https://web.facebook.com/profile.php?id=100015131225530" className="d-flex text-decoration-none very-small">
             <i class="fa-solid fa-location-dot footer-icon footer-icon-2"></i>
             <span className="social-media">
-            Address : Rajshahi,Bangladesh
+            Address : <span className = "footer-persional-info">Rajshahi,Bangladesh</span>
             </span>
             </Link>
-            <Link to="https://www.linkedin.com/feed/" className="d-flex text-decoration-none">
+            <Link to="https://www.linkedin.com/feed/" className="d-flex text-decoration-none very-small">
             <i class="fa-brands fa-whatsapp footer-icon footer-icon-2"></i>
             <span className="social-media">
-            What's App : +8801319118383
+            What's App : <span className = "footer-persional-info">+8801319118383</span>
             </span>
             </Link>
-            <Link to="https://web.facebook.com/profile.php?id=100015131225530" className="d-flex text-decoration-none">
+            <Link to="https://web.facebook.com/profile.php?id=100015131225530" className="d-flex text-decoration-none very-small">
             <i class="fa-solid fa-envelope footer-icon footer-icon-2"></i>
             <span className="social-media">
-            Email : ridoymondol140@gmail.com
+            Email : <span className = "footer-persional-info">ridoymondol140@gmail.com</span>
             </span>
             </Link>
             </div>
           </div>
         </div>
-        </div>
-        <div className="d-flex justify-content-around pt-3 footer-end">
-          <p>&copy; 2023 All Rights Reserved By Ridoy Mondol </p>
-          <p>PRIVACY POLICY <br/> CREATE BY RIDOY MONDOL</p>
         </div>
         </div>
         </div>

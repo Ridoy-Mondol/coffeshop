@@ -23,7 +23,22 @@ const Contact = () => {
 
 const getData = (elem) => {
     elem.preventDefault();
-    alert(`My fullname is ${data.name},My phone no. is ${data.phone},My email is ${data.email},My subject is ${data.subject},My message is ${data.message},`);
+
+    if(data.name === "" || data.phone === "" || data.email === "" || data.message === "") {
+        alert ("Please fill all the fields");
+    }
+    else {
+    alert(`Thank you for contacting us.
+Your name is ${data.name},Your phone no. is ${data.phone}, Your email is  ${data.email},Your message is ${data.message},`);
+
+    setData ({
+        name:"",
+        email:"",
+        phone:"",
+        subject:"",
+        message:""
+    })
+}
 }
     return (
         <div className="contact-div">
@@ -36,16 +51,16 @@ const getData = (elem) => {
                 <img src = {img} alt="" className="img-fluid contact-img"/>
                 <form method="POST" onSubmit={getData} className="outer-element">
                     <div>
-                    <input type="text" placeholder="Name" name="name" value={data.name} onChange={userData} className="input-div" />
+                    <input autoComplete="off" type="text" placeholder="Name" name="name" value={data.name} onChange={userData} className="input-div" />
                     </div>
                     <div>
-                    <input type="email" placeholder="Email Address" name="email" value={data.email} onChange={userData}  className="input-div mt-3" />
+                    <input autoComplete="off" type="email" placeholder="Email Address" name="email" value={data.email} onChange={userData}  className="input-div mt-3" />
                     </div>
                     <div>
-                    <input type="number" placeholder="Phone Number" name="phone" value={data.phone} onChange={userData}  className="input-div mt-3" />
+                    <input autoComplete="off" type="number" placeholder="Phone Number" name="phone" value={data.phone} onChange={userData}  className="input-div mt-3" />
                     </div>
                     <div>
-                    <input type="text" placeholder="Your Message" name="message" value={data.message} onChange={userData} className="input-div input-msg mt-3" />
+                    <input autoComplete="off" type="text" placeholder="Your Message" name="message" value={data.message} onChange={userData} className="input-div input-msg mt-3" />
                     </div>
                     <div className="text-center">
                     <button className="contact-btn nav-btn mt-3">Send</button>
