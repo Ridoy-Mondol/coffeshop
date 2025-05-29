@@ -20,9 +20,9 @@ const Navbar = () => {
             <nav className={show ? "expand-div navbar":"mobile-nav nav-div navbar navbar-expand-lg"}>
   <div className="container-fluid position-relative">
     <NavLink className="navbar-brand nav-logo" to="/coffeshop/"><img src ={img} alt="logo" className="img-fluid logo"/></NavLink>
-    <span className={ show ? "hide-mobile" : "toggle-navbar bars"} onClick={showNav}><i class="fa-solid fa-bars"></i></span>
-         <span className={ show ? "toggle-navbar" : "hide-mobile"}
-         onClick={hideNav}><i class="fa-solid fa-xmark"></i></span>
+    <span className={ show ? "hide-mobile" : "toggle-navbar bars overflow-y-hidden"} onClick={showNav}><i className="fa-solid fa-bars"></i></span>
+         <span className={ show ? "toggle-navbar overflow-y-hidden" : "hide-mobile"}
+         onClick={hideNav}><i className="fa-solid fa-xmark"></i></span>
       <div
       className={show ? "navbar-nav" :`navbar-nav ms-auto mb-lg-0 me-lg-3  ${hideText ? 'hide-mobile' : ''}`}>
         <li className="nav-item">
